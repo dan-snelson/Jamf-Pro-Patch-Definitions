@@ -1,1 +1,198 @@
-{"publisher": "Adobe", "currentVersion": "15.1.1", "requirements": [{"and": true, "name": "Application Bundle ID", "value": "com.adobe.AfterEffects", "operator": "is", "type": "recon"}], "name": "Adobe After Effects CC 2018", "appName": "Adobe After Effects CC 2018.app", "id": "AdobeAfterEffectsCC2018", "lastModified": "2018-05-23T09:57:27Z", "extensionAttributes": [], "patches": [{"releaseDate": "2018-04-26T11:30:40Z", "killApps": [{"appName": "Adobe After Effects CC 2018.app", "bundleId": "com.adobe.AfterEffects"}], "version": "15.1.1", "components": [{"version": "15.1.1", "name": "Adobe After Effects CC", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.AfterEffects"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.1.1"}]}], "standalone": true, "minimumOperatingSystem": "10.11", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11"}]}, {"releaseDate": "2018-04-04T10:30:40Z", "killApps": [{"appName": "Adobe After Effects CC 2018.app", "bundleId": "com.adobe.AfterEffects"}], "version": "15.1", "components": [{"version": "15.1", "name": "Adobe After Effects CC", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.AfterEffects"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.1"}]}], "standalone": true, "minimumOperatingSystem": "10.11", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11"}]}, {"releaseDate": "2018-01-23T09:16:40Z", "killApps": [{"appName": "Adobe After Effects CC 2018.app", "bundleId": "com.adobe.AfterEffects"}], "version": "15.0.1", "components": [{"version": "15.0.1", "name": "Adobe After Effects CC", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.AfterEffects"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.0.1"}]}], "standalone": true, "minimumOperatingSystem": "10.11", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11"}]}, {"releaseDate": "2017-10-19T13:45:40Z", "killApps": [{"appName": "Adobe After Effects CC 2018.app", "bundleId": "com.adobe.AfterEffects"}], "version": "15.0", "components": [{"version": "15.0", "name": "Adobe After Effects CC", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.AfterEffects"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.0"}]}], "standalone": true, "minimumOperatingSystem": "10.11", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11"}]}], "bundleId": "com.adobe.AfterEffects"}
+{
+  "appName": "Adobe After Effects CC 2018.app",
+  "bundleId": "com.adobe.AfterEffects",
+  "currentVersion": "15.1.1",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeAfterEffectsCC2018",
+  "lastModified": "2018-05-23T09:57:27Z",
+  "name": "Adobe After Effects CC 2018",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.AfterEffects"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.1.1"
+            }
+          ],
+          "name": "Adobe After Effects CC",
+          "version": "15.1.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe After Effects CC 2018.app",
+          "bundleId": "com.adobe.AfterEffects"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-04-26T11:30:40Z",
+      "standalone": true,
+      "version": "15.1.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.AfterEffects"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.1"
+            }
+          ],
+          "name": "Adobe After Effects CC",
+          "version": "15.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe After Effects CC 2018.app",
+          "bundleId": "com.adobe.AfterEffects"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-04-04T10:30:40Z",
+      "standalone": true,
+      "version": "15.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.AfterEffects"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.0.1"
+            }
+          ],
+          "name": "Adobe After Effects CC",
+          "version": "15.0.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe After Effects CC 2018.app",
+          "bundleId": "com.adobe.AfterEffects"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-01-23T09:16:40Z",
+      "standalone": true,
+      "version": "15.0.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.AfterEffects"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.0"
+            }
+          ],
+          "name": "Adobe After Effects CC",
+          "version": "15.0"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe After Effects CC 2018.app",
+          "bundleId": "com.adobe.AfterEffects"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2017-10-19T13:45:40Z",
+      "standalone": true,
+      "version": "15.0"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.AfterEffects"
+    }
+  ]
+}

@@ -1,1 +1,1884 @@
-{"publisher": "Microsoft", "currentVersion": "16.14.18061302", "requirements": [{"and": true, "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac", "operator": "is", "type": "recon"}, {"and": false, "name": "Application Version", "value": "16.", "operator": "like", "type": "recon"}, {"and": false, "name": "Application Version", "value": "15.", "operator": "like", "type": "recon"}], "name": "Microsoft OneNote 2016 (msupdate)", "appName": "Microsoft OneNote.app", "id": "MicrosoftOneNote2016-msupdate", "lastModified": "2018-06-15T15:53:36Z", "extensionAttributes": [], "patches": [{"releaseDate": "2018-06-14T11:12:41Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.14.18061302", "components": [{"version": "16.14.18061302", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.14.18061302"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-06-12T20:35:48Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.14.18061000", "components": [{"version": "16.14.18061000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.14.18061000"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-05-25T09:58:38Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.13.18052304", "components": [{"version": "16.13.18052304", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.13.18052304"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-05-15T16:00:33Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.13.18051301", "components": [{"version": "16.13.18051301", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.13.18051301"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-04-11T16:00:48Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.12.18041000", "components": [{"version": "16.12.18041000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.12.18041000"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-03-13T16:03:03Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.11.18031100", "components": [{"version": "16.11.18031100", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.11.18031100"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-02-13T17:06:16Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.10.18021001", "components": [{"version": "16.10.18021001", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.10.18021001"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2018-01-18T16:49:21Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "16.9.18011602", "components": [{"version": "16.9.18011602", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "16.9.18011602"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-12-12T19:08:46Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.41.17120500", "components": [{"version": "15.41.17120500", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.41.17120500"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-11-14T19:54:03Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.40.17110800", "components": [{"version": "15.40.17110800", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.40.17110800"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-10-10T18:57:51Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.39.17101000", "components": [{"version": "15.39.17101000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.39.17101000"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-09-12T16:00:23Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.38.17090200", "components": [{"version": "15.38.17090200", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.38.17090200"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-08-15T12:16:15Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.37.17081500", "components": [{"version": "15.37.17081500", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.37.17081500"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-07-11T15:23:15Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.36.17070200", "components": [{"version": "15.36.17070200", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.36.17070200"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-06-16T20:00:15Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.35.17061600", "components": [{"version": "15.35.17061600", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.35.17061600"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-06-13T18:05:39Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.35.17061000", "components": [{"version": "15.35.17061000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.35.17061000"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-05-16T18:00:48Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.34.17051500", "components": [{"version": "15.34.17051500", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.34.17051500"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-04-11T22:00:34Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.33.17040900", "components": [{"version": "15.33.17040900", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.33.17040900"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-03-14T16:00:34Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.32.17030901", "components": [{"version": "15.32.17030901", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.32.17030901"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-02-16T17:00:40Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.31.17021600", "components": [{"version": "15.31.17021600", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.31.17021600"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2017-01-11T17:00:38Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.30.17010700", "components": [{"version": "15.30.17010700", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.30.17010700"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-12-13T17:48:43Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.29.16120900", "components": [{"version": "15.29.16120900", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.29.16120900"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-11-16T07:21:01Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.28.16111501", "components": [{"version": "15.28.16111501", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.28.16111501"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-11-15T01:38:01Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.28.16111300", "components": [{"version": "15.28.16111300", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.28.16111300"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-10-11T18:00:21Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.27.16101000", "components": [{"version": "15.27.16101000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.27.16101000"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-09-14T14:00:34Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.26.16091000", "components": [{"version": "15.26.16091000", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.26.16091000"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-08-23T21:00:48Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.25.16081700", "components": [{"version": "15.25.16081700", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.25.16081700"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-08-23T21:02:48Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.25.16081800", "components": [{"version": "15.25.16081800", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.25.16081800"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-07-13T11:13:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.24.16070900", "components": [{"version": "15.24.16070900", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.24.16070900"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-06-15T04:15:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.23.16061100", "components": [{"version": "15.23.16061100", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.23.16061100"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-05-11T11:17:33Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.22.16050600", "components": [{"version": "15.22.16050600", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.22.16050600"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-04-13T08:32:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.21.16041100", "components": [{"version": "15.21.16041100", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.21.16041100"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-03-16T07:50:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.20.16031500", "components": [{"version": "15.20.16031500", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.20.16031500"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-02-17T08:32:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.19.1", "components": [{"version": "15.19.1", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.19.1"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2016-01-12T12:12:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.18", "components": [{"version": "15.18", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.18"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-12-10T14:09:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.17", "components": [{"version": "15.17", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.17"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-11-10T08:31:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.16", "components": [{"version": "15.16", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.16"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-10-13T09:20:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.15", "components": [{"version": "15.15", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.15"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-09-15T08:44:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.14", "components": [{"version": "15.14", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.14"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-08-11T19:19:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.13.1", "components": [{"version": "15.13.1", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.13.1"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-07-28T07:28:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.12.3", "components": [{"version": "15.12.3", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.12.3"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}, {"releaseDate": "2015-07-09T07:11:00Z", "killApps": [{"appName": "Microsoft Dummy.app", "bundleId": "com.microsoft.Dummy"}], "version": "15.11.2", "components": [{"version": "15.11.2", "name": "Microsoft OneNote 2016", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "15.11.2"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.onenote.mac"}]}], "standalone": true, "minimumOperatingSystem": "10.10", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10"}]}], "bundleId": "com.microsoft.onenote.mac"}
+{
+  "appName": "Microsoft OneNote.app",
+  "bundleId": "com.microsoft.onenote.mac",
+  "currentVersion": "16.14.18061302",
+  "extensionAttributes": [
+  ],
+  "id": "MicrosoftOneNote2016-msupdate",
+  "lastModified": "2018-06-15T15:53:36Z",
+  "name": "Microsoft OneNote 2016 (msupdate)",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.14.18061302"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.14.18061302"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-06-14T11:12:41Z",
+      "standalone": true,
+      "version": "16.14.18061302"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.14.18061000"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.14.18061000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-06-12T20:35:48Z",
+      "standalone": true,
+      "version": "16.14.18061000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.13.18052304"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.13.18052304"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-05-25T09:58:38Z",
+      "standalone": true,
+      "version": "16.13.18052304"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.13.18051301"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.13.18051301"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-05-15T16:00:33Z",
+      "standalone": true,
+      "version": "16.13.18051301"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.12.18041000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.12.18041000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-04-11T16:00:48Z",
+      "standalone": true,
+      "version": "16.12.18041000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.11.18031100"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.11.18031100"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-03-13T16:03:03Z",
+      "standalone": true,
+      "version": "16.11.18031100"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.10.18021001"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.10.18021001"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-02-13T17:06:16Z",
+      "standalone": true,
+      "version": "16.10.18021001"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.9.18011602"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "16.9.18011602"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-01-18T16:49:21Z",
+      "standalone": true,
+      "version": "16.9.18011602"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.41.17120500"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.41.17120500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-12-12T19:08:46Z",
+      "standalone": true,
+      "version": "15.41.17120500"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.40.17110800"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.40.17110800"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-11-14T19:54:03Z",
+      "standalone": true,
+      "version": "15.40.17110800"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.39.17101000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.39.17101000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-10-10T18:57:51Z",
+      "standalone": true,
+      "version": "15.39.17101000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.38.17090200"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.38.17090200"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-09-12T16:00:23Z",
+      "standalone": true,
+      "version": "15.38.17090200"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.37.17081500"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.37.17081500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-08-15T12:16:15Z",
+      "standalone": true,
+      "version": "15.37.17081500"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.36.17070200"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.36.17070200"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-07-11T15:23:15Z",
+      "standalone": true,
+      "version": "15.36.17070200"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.35.17061600"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.35.17061600"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-06-16T20:00:15Z",
+      "standalone": true,
+      "version": "15.35.17061600"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.35.17061000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.35.17061000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-06-13T18:05:39Z",
+      "standalone": true,
+      "version": "15.35.17061000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.34.17051500"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.34.17051500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-05-16T18:00:48Z",
+      "standalone": true,
+      "version": "15.34.17051500"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.33.17040900"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.33.17040900"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-04-11T22:00:34Z",
+      "standalone": true,
+      "version": "15.33.17040900"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.32.17030901"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.32.17030901"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-03-14T16:00:34Z",
+      "standalone": true,
+      "version": "15.32.17030901"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.31.17021600"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.31.17021600"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-02-16T17:00:40Z",
+      "standalone": true,
+      "version": "15.31.17021600"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.30.17010700"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.30.17010700"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2017-01-11T17:00:38Z",
+      "standalone": true,
+      "version": "15.30.17010700"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.29.16120900"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.29.16120900"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-12-13T17:48:43Z",
+      "standalone": true,
+      "version": "15.29.16120900"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.28.16111501"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.28.16111501"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-11-16T07:21:01Z",
+      "standalone": true,
+      "version": "15.28.16111501"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.28.16111300"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.28.16111300"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-11-15T01:38:01Z",
+      "standalone": true,
+      "version": "15.28.16111300"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.27.16101000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.27.16101000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-10-11T18:00:21Z",
+      "standalone": true,
+      "version": "15.27.16101000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.26.16091000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.26.16091000"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-09-14T14:00:34Z",
+      "standalone": true,
+      "version": "15.26.16091000"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.25.16081700"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.25.16081700"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-08-23T21:00:48Z",
+      "standalone": true,
+      "version": "15.25.16081700"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.25.16081800"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.25.16081800"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-08-23T21:02:48Z",
+      "standalone": true,
+      "version": "15.25.16081800"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.24.16070900"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.24.16070900"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-07-13T11:13:00Z",
+      "standalone": true,
+      "version": "15.24.16070900"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.23.16061100"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.23.16061100"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-06-15T04:15:00Z",
+      "standalone": true,
+      "version": "15.23.16061100"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.22.16050600"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.22.16050600"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-05-11T11:17:33Z",
+      "standalone": true,
+      "version": "15.22.16050600"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.21.16041100"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.21.16041100"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-04-13T08:32:00Z",
+      "standalone": true,
+      "version": "15.21.16041100"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.20.16031500"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.20.16031500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-03-16T07:50:00Z",
+      "standalone": true,
+      "version": "15.20.16031500"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.19.1"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.19.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-02-17T08:32:00Z",
+      "standalone": true,
+      "version": "15.19.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.18"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.18"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2016-01-12T12:12:00Z",
+      "standalone": true,
+      "version": "15.18"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.17"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.17"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-12-10T14:09:00Z",
+      "standalone": true,
+      "version": "15.17"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.16"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.16"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-11-10T08:31:00Z",
+      "standalone": true,
+      "version": "15.16"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.15"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.15"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-10-13T09:20:00Z",
+      "standalone": true,
+      "version": "15.15"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.14"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.14"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-09-15T08:44:00Z",
+      "standalone": true,
+      "version": "15.14"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.13.1"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.13.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-08-11T19:19:00Z",
+      "standalone": true,
+      "version": "15.13.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.12.3"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.12.3"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-07-28T07:28:00Z",
+      "standalone": true,
+      "version": "15.12.3"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.11.2"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2016",
+          "version": "15.11.2"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2015-07-09T07:11:00Z",
+      "standalone": true,
+      "version": "15.11.2"
+    }
+  ],
+  "publisher": "Microsoft",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.microsoft.onenote.mac"
+    },
+    {
+      "and": false,
+      "name": "Application Version",
+      "operator": "like",
+      "type": "recon",
+      "value": "16."
+    },
+    {
+      "and": false,
+      "name": "Application Version",
+      "operator": "like",
+      "type": "recon",
+      "value": "15."
+    }
+  ]
+}

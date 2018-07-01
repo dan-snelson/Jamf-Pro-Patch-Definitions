@@ -1,1 +1,66 @@
-{"publisher": "Adobe", "currentVersion": "13.1.0.76", "requirements": [{"and": true, "name": "Application Bundle ID", "value": "com.adobe.InCopy", "operator": "is", "type": "recon"}], "name": "Adobe InCopy CC 2018", "appName": "Adobe InCopy CC 2018.app", "id": "AdobeInCopyCC2018", "lastModified": "2018-05-23T10:02:31Z", "extensionAttributes": [], "patches": [{"releaseDate": "2018-04-04T22:14:14Z", "killApps": [{"appName": "Adobe InCopy CC 2018.app", "bundleId": "com.adobe.InCopy"}], "version": "13.1.0.76", "components": [{"version": "13.1.0.76", "name": "Adobe InCopy CC 2018", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.InCopy"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "13.1.0.76"}]}], "standalone": true, "minimumOperatingSystem": "10.11.0", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11.0"}]}], "bundleId": "com.adobe.InCopy"}
+{
+  "appName": "Adobe InCopy CC 2018.app",
+  "bundleId": "com.adobe.InCopy",
+  "currentVersion": "13.1.0.76",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeInCopyCC2018",
+  "lastModified": "2018-05-23T10:02:31Z",
+  "name": "Adobe InCopy CC 2018",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11.0"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.InCopy"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "13.1.0.76"
+            }
+          ],
+          "name": "Adobe InCopy CC 2018",
+          "version": "13.1.0.76"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe InCopy CC 2018.app",
+          "bundleId": "com.adobe.InCopy"
+        }
+      ],
+      "minimumOperatingSystem": "10.11.0",
+      "reboot": false,
+      "releaseDate": "2018-04-04T22:14:14Z",
+      "standalone": true,
+      "version": "13.1.0.76"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.InCopy"
+    }
+  ]
+}

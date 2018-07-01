@@ -1,1 +1,198 @@
-{"publisher": "Microsoft", "currentVersion": "116251", "requirements": [{"and": true, "name": "Application Bundle ID", "value": "com.microsoft.teams", "operator": "is", "type": "recon"}], "name": "Microsoft Teams", "appName": "Microsoft Teams.app", "id": "MicrosoftTeams", "lastModified": "2018-06-19T16:20:34Z", "extensionAttributes": [], "patches": [{"releaseDate": "2018-06-19T15:45:39Z", "killApps": [{"appName": "Microsoft Teams.app", "bundleId": "com.microsoft.teams"}], "version": "116251", "components": [{"version": "116251", "name": "Microsoft Teams", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.teams"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "116251"}]}], "standalone": true, "minimumOperatingSystem": "10.10.0", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10.0"}]}, {"releaseDate": "2018-06-18T14:53:27Z", "killApps": [{"appName": "Microsoft Teams.app", "bundleId": "com.microsoft.teams"}], "version": "115751", "components": [{"version": "115751", "name": "Microsoft Teams", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.teams"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "115751"}]}], "standalone": true, "minimumOperatingSystem": "10.10.0", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10.0"}]}, {"releaseDate": "2018-06-05T14:31:29Z", "killApps": [{"appName": "Microsoft Teams.app", "bundleId": "com.microsoft.teams"}], "version": "114353", "components": [{"version": "114353", "name": "Microsoft Teams", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.teams"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "114353"}]}], "standalone": true, "minimumOperatingSystem": "10.10.0", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10.0"}]}, {"releaseDate": "2018-05-03T00:02:16Z", "killApps": [{"appName": "Microsoft Teams.app", "bundleId": "com.microsoft.teams"}], "version": "112255", "components": [{"version": "112255", "name": "Microsoft Teams", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.microsoft.teams"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "1.00.112255"}]}], "standalone": true, "minimumOperatingSystem": "10.10.0", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.10.0"}]}], "bundleId": "com.microsoft.teams"}
+{
+  "appName": "Microsoft Teams.app",
+  "bundleId": "com.microsoft.teams",
+  "currentVersion": "116251",
+  "extensionAttributes": [
+  ],
+  "id": "MicrosoftTeams",
+  "lastModified": "2018-06-19T16:20:34Z",
+  "name": "Microsoft Teams",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10.0"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.teams"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "116251"
+            }
+          ],
+          "name": "Microsoft Teams",
+          "version": "116251"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Teams.app",
+          "bundleId": "com.microsoft.teams"
+        }
+      ],
+      "minimumOperatingSystem": "10.10.0",
+      "reboot": false,
+      "releaseDate": "2018-06-19T15:45:39Z",
+      "standalone": true,
+      "version": "116251"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10.0"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.teams"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "115751"
+            }
+          ],
+          "name": "Microsoft Teams",
+          "version": "115751"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Teams.app",
+          "bundleId": "com.microsoft.teams"
+        }
+      ],
+      "minimumOperatingSystem": "10.10.0",
+      "reboot": false,
+      "releaseDate": "2018-06-18T14:53:27Z",
+      "standalone": true,
+      "version": "115751"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10.0"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.teams"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "114353"
+            }
+          ],
+          "name": "Microsoft Teams",
+          "version": "114353"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Teams.app",
+          "bundleId": "com.microsoft.teams"
+        }
+      ],
+      "minimumOperatingSystem": "10.10.0",
+      "reboot": false,
+      "releaseDate": "2018-06-05T14:31:29Z",
+      "standalone": true,
+      "version": "114353"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10.0"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.teams"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "1.00.112255"
+            }
+          ],
+          "name": "Microsoft Teams",
+          "version": "112255"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Teams.app",
+          "bundleId": "com.microsoft.teams"
+        }
+      ],
+      "minimumOperatingSystem": "10.10.0",
+      "reboot": false,
+      "releaseDate": "2018-05-03T00:02:16Z",
+      "standalone": true,
+      "version": "112255"
+    }
+  ],
+  "publisher": "Microsoft",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.microsoft.teams"
+    }
+  ]
+}

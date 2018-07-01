@@ -1,1 +1,66 @@
-{"publisher": "Adobe", "currentVersion": "18.0.1", "requirements": [{"and": true, "name": "Application Bundle ID", "value": "com.adobe.Adobe Animate CC 2018.application", "operator": "is", "type": "recon"}], "name": "Adobe Animate CC 2018", "appName": "Adobe Animate CC 2018.app", "id": "AdobeAnimateCC2018", "lastModified": "2018-05-23T09:58:14Z", "extensionAttributes": [], "patches": [{"releaseDate": "2018-02-11T03:47:07Z", "killApps": [{"appName": "Adobe Animate CC 2018.app", "bundleId": "com.adobe.Adobe Animate CC 2018.application"}], "version": "18.0.1", "components": [{"version": "18.0.1", "name": "Adobe Animate CC 2018", "criteria": [{"operator": "is", "and": true, "type": "recon", "name": "Application Bundle ID", "value": "com.adobe.Adobe Animate CC 2018.application"}, {"operator": "is", "and": true, "type": "recon", "name": "Application Version", "value": "18.0.1"}]}], "standalone": true, "minimumOperatingSystem": "10.11", "reboot": false, "capabilities": [{"operator": "greater than or equal", "and": true, "type": "recon", "name": "Operating System Version", "value": "10.11"}]}], "bundleId": "com.adobe.Adobe Animate CC 2018.application"}
+{
+  "appName": "Adobe Animate CC 2018.app",
+  "bundleId": "com.adobe.Adobe Animate CC 2018.application",
+  "currentVersion": "18.0.1",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeAnimateCC2018",
+  "lastModified": "2018-05-23T09:58:14Z",
+  "name": "Adobe Animate CC 2018",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.Adobe Animate CC 2018.application"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "18.0.1"
+            }
+          ],
+          "name": "Adobe Animate CC 2018",
+          "version": "18.0.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Animate CC 2018.app",
+          "bundleId": "com.adobe.Adobe Animate CC 2018.application"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-02-11T03:47:07Z",
+      "standalone": true,
+      "version": "18.0.1"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.Adobe Animate CC 2018.application"
+    }
+  ]
+}
