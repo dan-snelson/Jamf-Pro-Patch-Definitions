@@ -1,11 +1,11 @@
 {
   "appName": "Microsoft Excel.app",
   "bundleId": "com.microsoft.excel",
-  "currentVersion": "16.14.18061302",
+  "currentVersion": "16.15.18070902",
   "extensionAttributes": [
   ],
   "id": "MicrosoftExcel2016-msupdate",
-  "lastModified": "2018-06-15T15:53:23Z",
+  "lastModified": "2018-07-11T16:30:51Z",
   "name": "Microsoft Excel 2016 (msupdate)",
   "patches": [
     {
@@ -33,7 +33,51 @@
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
+              "value": "16.15.18070902"
+            }
+          ],
+          "name": "Microsoft Excel 2016",
+          "version": "16.15.18070902"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-07-11T04:25:45Z",
+      "standalone": true,
+      "version": "16.15.18070902"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
               "value": "16.14.18061302"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Excel"
             }
           ],
           "name": "Microsoft Excel 2016",
@@ -67,17 +111,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
-              "value": "com.microsoft.Excel"
-            },
-            {
-              "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.14.18061000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Excel"
             }
           ],
           "name": "Microsoft Excel 2016",
