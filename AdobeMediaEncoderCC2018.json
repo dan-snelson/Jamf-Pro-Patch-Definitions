@@ -1,13 +1,57 @@
 {
   "appName": "Adobe Media Encoder CC 2018.app",
   "bundleId": "com.adobe.ame.application.CC12",
-  "currentVersion": "12.1.1.12",
+  "currentVersion": "12.1.2.69",
   "extensionAttributes": [
   ],
   "id": "AdobeMediaEncoderCC2018",
-  "lastModified": "2018-05-23T14:42:28Z",
+  "lastModified": "2018-07-18T02:20:38Z",
   "name": "Adobe Media Encoder CC 2018",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.ame.application.CC12"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "12.1.2.69"
+            }
+          ],
+          "name": "Adobe Media Encoder CC 2018",
+          "version": "12.1.2.69"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Media Encoder CC 2018.app",
+          "bundleId": "com.adobe.ame.application.CC12"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-07-17T13:53:28Z",
+      "standalone": true,
+      "version": "12.1.2.69"
+    },
     {
       "capabilities": [
         {
