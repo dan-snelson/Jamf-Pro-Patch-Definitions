@@ -1,13 +1,57 @@
 {
   "appName": "Adobe XD CC.app",
   "bundleId": "com.adobe.xd",
-  "currentVersion": "9.1.12.3",
+  "currentVersion": "10.0.12.9",
   "extensionAttributes": [
   ],
   "id": "AdobeXDCC2018",
-  "lastModified": "2018-07-03T15:57:04Z",
+  "lastModified": "2018-07-18T02:18:13Z",
   "name": "Adobe XD CC 2018",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.11"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.xd"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "10.0.12.9"
+            }
+          ],
+          "name": "Adobe XD CC 2018",
+          "version": "10.0.12.9"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe XD CC.app",
+          "bundleId": "com.adobe.xd"
+        }
+      ],
+      "minimumOperatingSystem": "10.11",
+      "reboot": false,
+      "releaseDate": "2018-07-17T13:54:18Z",
+      "standalone": true,
+      "version": "10.0.12.9"
+    },
     {
       "capabilities": [
         {
