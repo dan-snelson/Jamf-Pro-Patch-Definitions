@@ -1,13 +1,57 @@
 {
   "appName": "Microsoft Word.app",
   "bundleId": "com.microsoft.Word",
-  "currentVersion": "16.15.18070902",
+  "currentVersion": "16.16.18081201",
   "extensionAttributes": [
   ],
   "id": "MicrosoftWord2016-msupdate",
-  "lastModified": "2018-07-11T16:39:14Z",
+  "lastModified": "2018-08-15T04:43:06Z",
   "name": "Microsoft Word 2016 (msupdate)",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Word"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18081201"
+            }
+          ],
+          "name": "Microsoft Word 2016",
+          "version": "16.16.18081201"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-08-14T21:10:23Z",
+      "standalone": true,
+      "version": "16.16.18081201"
+    },
     {
       "capabilities": [
         {
