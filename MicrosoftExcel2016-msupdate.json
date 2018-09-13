@@ -1,13 +1,57 @@
 {
   "appName": "Microsoft Excel.app",
   "bundleId": "com.microsoft.excel",
-  "currentVersion": "16.16.18081402",
+  "currentVersion": "16.16.18091001",
   "extensionAttributes": [
   ],
   "id": "MicrosoftExcel2016-msupdate",
-  "lastModified": "2018-08-16T21:10:54Z",
+  "lastModified": "2018-09-12T20:56:14Z",
   "name": "Microsoft Excel 2016 (msupdate)",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Excel"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18091001"
+            }
+          ],
+          "name": "Microsoft Excel 2016",
+          "version": "16.16.18091001"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-09-12T18:08:16Z",
+      "standalone": true,
+      "version": "16.16.18091001"
+    },
     {
       "capabilities": [
         {
