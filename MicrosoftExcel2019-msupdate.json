@@ -5,7 +5,7 @@
   "extensionAttributes": [
   ],
   "id": "MicrosoftExcel2019-msupdate",
-  "lastModified": "2018-09-25T20:13:38Z",
+  "lastModified": "2018-10-05T16:43:00Z",
   "name": "Microsoft Excel 2019 (msupdate)",
   "patches": [
     {
@@ -67,7 +67,7 @@
       "name": "Application Version",
       "operator": "like",
       "type": "recon",
-      "value": "16.17."
+      "value": "16."
     }
   ]
 }

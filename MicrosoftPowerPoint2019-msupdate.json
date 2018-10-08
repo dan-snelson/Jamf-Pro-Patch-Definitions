@@ -5,7 +5,7 @@
   "extensionAttributes": [
   ],
   "id": "MicrosoftPowerPoint2019-msupdate",
-  "lastModified": "2018-09-25T20:21:28Z",
+  "lastModified": "2018-10-05T16:43:22Z",
   "name": "Microsoft PowerPoint 2019 (msupdate)",
   "patches": [
     {
@@ -67,7 +67,7 @@
       "name": "Application Version",
       "operator": "like",
       "type": "recon",
-      "value": "16.17."
+      "value": "16."
     }
   ]
 }

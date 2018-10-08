@@ -5,7 +5,7 @@
   "extensionAttributes": [
   ],
   "id": "MicrosoftOutlook2019-msupdate",
-  "lastModified": "2018-09-25T20:23:29Z",
+  "lastModified": "2018-10-05T16:43:50Z",
   "name": "Microsoft Outlook 2019 (msupdate)",
   "patches": [
     {
@@ -67,7 +67,7 @@
       "name": "Application Version",
       "operator": "like",
       "type": "recon",
-      "value": "16.17."
+      "value": "16."
     }
   ]
 }
