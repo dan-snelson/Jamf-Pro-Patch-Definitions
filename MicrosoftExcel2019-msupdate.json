@@ -1,11 +1,11 @@
 {
   "appName": "Microsoft Excel.app",
   "bundleId": "com.microsoft.Excel",
-  "currentVersion": "16.17.18090901",
+  "currentVersion": "16.19.18110915",
   "extensionAttributes": [
   ],
   "id": "MicrosoftExcel2019-msupdate",
-  "lastModified": "2018-10-05T16:43:00Z",
+  "lastModified": "2018-11-27T15:34:49Z",
   "name": "Microsoft Excel 2019 (msupdate)",
   "patches": [
     {
@@ -23,17 +23,105 @@
           "criteria": [
             {
               "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.19.18110915"
+            },
+            {
+              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Excel"
+            }
+          ],
+          "name": "Microsoft Excel 2019",
+          "version": "16.19.18110915"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-14T19:51:04Z",
+      "standalone": true,
+      "version": "16.19.18110915"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.18.18101400"
             },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Excel"
+            }
+          ],
+          "name": "Microsoft Excel 2019",
+          "version": "16.18.18101400"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-17T19:07:29Z",
+      "standalone": true,
+      "version": "16.18.18101400"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
             {
               "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.17.18090901"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Excel"
             }
           ],
           "name": "Microsoft Excel 2019",

@@ -1,11 +1,11 @@
 {
   "appName": "Microsoft OneNote.app",
   "bundleId": "com.microsoft.onenote.mac",
-  "currentVersion": "16.17.18090901",
+  "currentVersion": "16.19.18110915",
   "extensionAttributes": [
   ],
   "id": "MicrosoftOneNote2019-msupdate",
-  "lastModified": "2018-10-05T16:44:08Z",
+  "lastModified": "2018-11-27T15:34:53Z",
   "name": "Microsoft OneNote 2019 (msupdate)",
   "patches": [
     {
@@ -23,17 +23,105 @@
           "criteria": [
             {
               "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.19.18110915"
+            },
+            {
+              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2019",
+          "version": "16.19.18110915"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-14T19:46:59Z",
+      "standalone": true,
+      "version": "16.19.18110915"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.18.18101400"
             },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
+            }
+          ],
+          "name": "Microsoft OneNote 2019",
+          "version": "16.18.18101400"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-17T19:23:07Z",
+      "standalone": true,
+      "version": "16.18.18101400"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
             {
               "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.17.18090901"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.onenote.mac"
             }
           ],
           "name": "Microsoft OneNote 2019",
