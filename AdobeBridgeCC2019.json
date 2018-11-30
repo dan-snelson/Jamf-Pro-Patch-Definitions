@@ -1,0 +1,110 @@
+{
+  "appName": "Adobe Bridge CC 2019.app",
+  "bundleId": "com.adobe.bridge9",
+  "currentVersion": "9.0.1.216",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeBridgeCC2019",
+  "lastModified": "2018-11-27T15:34:52Z",
+  "name": "Adobe Bridge CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.bridge9"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "9.0.1.216"
+            }
+          ],
+          "name": "Adobe Bridge CC 2019",
+          "version": "9.0.1.216"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Bridge CC 2019.app",
+          "bundleId": "com.adobe.bridge9"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-06T01:22:43Z",
+      "standalone": true,
+      "version": "9.0.1.216"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.bridge9"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "9.0.0.204"
+            }
+          ],
+          "name": "Adobe Bridge CC 2019",
+          "version": "9.0.0.204"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Bridge CC 2019.app",
+          "bundleId": "com.adobe.bridge9"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T03:11:28Z",
+      "standalone": true,
+      "version": "9.0.0.204"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.bridge9"
+    }
+  ]
+}

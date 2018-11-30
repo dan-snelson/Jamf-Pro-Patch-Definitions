@@ -1,0 +1,110 @@
+{
+  "appName": "Adobe Illustrator.app",
+  "bundleId": "com.adobe.illustrator",
+  "currentVersion": "23.0.1",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeIllustratorCC2019",
+  "lastModified": "2018-11-27T15:34:50Z",
+  "name": "Adobe Illustrator CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.illustrator"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "23.0.1"
+            }
+          ],
+          "name": "Adobe Illustrator CC 2019",
+          "version": "23.0.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Illustrator.app",
+          "bundleId": "com.adobe.illustrator"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-06T01:26:23Z",
+      "standalone": true,
+      "version": "23.0.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.illustrator"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "23.0.0"
+            }
+          ],
+          "name": "Adobe Illustrator CC 2019",
+          "version": "23.0.0"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Illustrator.app",
+          "bundleId": "com.adobe.illustrator"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T02:59:49Z",
+      "standalone": true,
+      "version": "23.0.0"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.illustrator"
+    }
+  ]
+}

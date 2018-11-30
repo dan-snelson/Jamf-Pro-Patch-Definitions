@@ -1,0 +1,110 @@
+{
+  "appName": "Adobe Media Encoder CC 2019.app",
+  "bundleId": "com.adobe.ame.application.CC13",
+  "currentVersion": "13.0.1.12",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeMediaEncoderCC2019",
+  "lastModified": "2018-11-27T15:34:52Z",
+  "name": "Adobe Media Encoder CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.ame.application.CC13"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "13.0.1.12"
+            }
+          ],
+          "name": "Adobe Media Encoder CC 2019",
+          "version": "13.0.1.12"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Media Encoder CC 2019.app",
+          "bundleId": "com.adobe.ame.application.CC13"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-06T01:27:00Z",
+      "standalone": true,
+      "version": "13.0.1.12"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.ame.application.CC13"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "13.0.203"
+            }
+          ],
+          "name": "Adobe Media Encoder CC 2019",
+          "version": "13.0.203"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Media Encoder CC 2019.app",
+          "bundleId": "com.adobe.ame.application.CC13"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T03:06:13Z",
+      "standalone": true,
+      "version": "13.0.203"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.ame.application.CC13"
+    }
+  ]
+}

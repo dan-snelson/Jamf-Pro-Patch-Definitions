@@ -1,0 +1,110 @@
+{
+  "appName": "Adobe InDesign CC 2019.app",
+  "bundleId": "com.adobe.InDesign",
+  "currentVersion": "14.0.1.209",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeInDesignCC2019",
+  "lastModified": "2018-11-27T16:18:27Z",
+  "name": "Adobe InDesign CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.InDesign"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "14.0.1.209"
+            }
+          ],
+          "name": "Adobe InDesign CC 2019",
+          "version": "14.0.1.209"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe InDesign CC 2019.app",
+          "bundleId": "com.adobe.InDesign"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-26T23:53:09Z",
+      "standalone": true,
+      "version": "14.0.1.209"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "14.0.0.130"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.InDesign"
+            }
+          ],
+          "name": "Adobe InDesign CC 2019",
+          "version": "14.0.0.130"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe InDesign CC 2019.app",
+          "bundleId": "com.adobe.InDesign"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T03:01:18Z",
+      "standalone": true,
+      "version": "14.0.0.130"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.InDesign"
+    }
+  ]
+}

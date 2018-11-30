@@ -1,0 +1,66 @@
+{
+  "appName": "Adobe Dreamweaver CC 2019.app",
+  "bundleId": "com.adobe.dreamweaver-18.1",
+  "currentVersion": "19.0.0.11193",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeDreamweaverCC2019",
+  "lastModified": "2018-11-27T15:34:51Z",
+  "name": "Adobe Dreamweaver CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.dreamweaver-18.1"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "19.0.0.11193"
+            }
+          ],
+          "name": "Adobe Dreamweaver CC 2019",
+          "version": "19.0.0.11193"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Dreamweaver CC 2019.app",
+          "bundleId": "com.adobe.dreamweaver-18.1"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T03:12:52Z",
+      "standalone": true,
+      "version": "19.0.0.11193"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.dreamweaver-18.1"
+    }
+  ]
+}

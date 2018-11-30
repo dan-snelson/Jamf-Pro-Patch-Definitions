@@ -1,0 +1,66 @@
+{
+  "appName": "Adobe Lightroom CC.app",
+  "bundleId": "com.adobe.lightroomCC",
+  "currentVersion": "Adobe Lightroom CC [20180919-1627-7b5e24e]",
+  "extensionAttributes": [
+  ],
+  "id": "AdobeLightroomClassicCC2019",
+  "lastModified": "2018-11-27T15:34:47Z",
+  "name": "Adobe Lightroom Classic CC 2019",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.lightroomCC"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "Adobe Lightroom CC [20180919-1627-7b5e24e]"
+            }
+          ],
+          "name": "Adobe Lightroom Classic CC 2019",
+          "version": "Adobe Lightroom CC [20180919-1627-7b5e24e]"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Lightroom CC.app",
+          "bundleId": "com.adobe.lightroomCC"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T02:25:50Z",
+      "standalone": true,
+      "version": "Adobe Lightroom CC [20180919-1627-7b5e24e]"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.lightroomCC"
+    }
+  ]
+}
