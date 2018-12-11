@@ -1,13 +1,57 @@
 {
   "appName": "Microsoft Word.app",
   "bundleId": "com.microsoft.Word",
-  "currentVersion": "16.19.18110915",
+  "currentVersion": "16.20.18120801",
   "extensionAttributes": [
   ],
   "id": "MicrosoftWord2019-msupdate",
-  "lastModified": "2018-11-27T15:34:48Z",
+  "lastModified": "2018-12-11T22:39:09Z",
   "name": "Microsoft Word 2019 (msupdate)",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Word"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.20.18120801"
+            }
+          ],
+          "name": "Microsoft Word 2019",
+          "version": "16.20.18120801"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-12-11T21:59:49Z",
+      "standalone": true,
+      "version": "16.20.18120801"
+    },
     {
       "capabilities": [
         {
