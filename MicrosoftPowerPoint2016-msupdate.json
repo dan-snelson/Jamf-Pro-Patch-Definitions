@@ -1,13 +1,145 @@
 {
   "appName": "Microsoft PowerPoint.app",
   "bundleId": "com.microsoft.PowerPoint",
-  "currentVersion": "16.16.18091001",
+  "currentVersion": "16.16.18120901",
   "extensionAttributes": [
   ],
   "id": "MicrosoftPowerPoint2016-msupdate",
-  "lastModified": "2018-09-12T20:55:29Z",
+  "lastModified": "2018-12-11T22:38:11Z",
   "name": "Microsoft PowerPoint 2016 (msupdate)",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18120901"
+            }
+          ],
+          "name": "Microsoft PowerPoint 2016",
+          "version": "16.16.18120901"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-12-11T21:35:51Z",
+      "standalone": true,
+      "version": "16.16.18120901"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18111001"
+            }
+          ],
+          "name": "Microsoft PowerPoint 2016",
+          "version": "16.16.18111001"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-11-14T20:09:31Z",
+      "standalone": true,
+      "version": "16.16.18111001"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18101500"
+            }
+          ],
+          "name": "Microsoft PowerPoint 2016",
+          "version": "16.16.18101500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-09-12T18:47:51Z",
+      "standalone": true,
+      "version": "16.16.18101500"
+    },
     {
       "capabilities": [
         {
@@ -243,17 +375,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.13.18052304"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.13.18052304"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -287,17 +419,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.13.18051301"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.13.18051301"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -331,17 +463,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.12.18041000"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.12.18041000"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -375,17 +507,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.11.18031900"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.11.18031900"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -419,17 +551,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.11.18031100"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.11.18031100"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -463,17 +595,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.10.18021001"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.10.18021001"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -507,17 +639,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.9.18012504"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.9.18012504"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -551,17 +683,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "16.9.18011602"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.9.18011602"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -595,17 +727,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.41.17120500"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.41.17120500"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -639,17 +771,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.40.17110800"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.40.17110800"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -683,17 +815,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.39.17101000"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.39.17101000"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -727,17 +859,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.38.17090200"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.38.17090200"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -771,17 +903,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.37.17081500"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.37.17081500"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -815,17 +947,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.36.17070200"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.36.17070200"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -859,17 +991,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.35.17061000"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.35.17061000"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -903,17 +1035,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.34.17051500"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.34.17051500"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -947,17 +1079,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.33.17040900"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.33.17040900"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -991,17 +1123,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.32.17030901"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.32.17030901"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1035,17 +1167,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.31.17021600"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.31.17021600"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1079,17 +1211,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.30.17010700"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.30.17010700"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1123,17 +1255,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.29.16121500"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.29.16121500"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1167,17 +1299,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.29.16120900"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.29.16120900"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1211,17 +1343,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.28.16111501"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.28.16111501"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1255,17 +1387,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.28.16111300"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.28.16111300"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1299,17 +1431,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.27.16101000"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.27.16101000"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1343,17 +1475,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.26.16091000"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.26.16091000"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1387,17 +1519,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.25.16081700"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.25.16081700"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1431,17 +1563,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.25.16081800"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.25.16081800"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1475,17 +1607,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.24.16070900"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.24.16070900"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1519,17 +1651,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.23.16062400"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.23.16062400"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1563,17 +1695,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.23.16061100"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.23.16061100"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1607,17 +1739,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.22.16050600"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.22.16050600"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1651,17 +1783,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.21.16041100"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.21.16041100"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1695,17 +1827,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.20.16031500"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.20.16031500"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1739,17 +1871,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.19.1"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.19.1"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1783,17 +1915,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.18"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.18"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1827,17 +1959,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.17"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.17"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1871,17 +2003,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.16"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.16"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1915,17 +2047,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.15"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.15"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -1959,17 +2091,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.14"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.14"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -2003,17 +2135,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.13.1"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.13.1"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -2047,17 +2179,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.12.3"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.12.3"
             }
           ],
           "name": "Microsoft PowerPoint 2016",
@@ -2091,17 +2223,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.11.2"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.Powerpoint"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.11.2"
             }
           ],
           "name": "Microsoft PowerPoint 2016",

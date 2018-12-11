@@ -1,11 +1,11 @@
 {
   "appName": "Microsoft Outlook.app",
   "bundleId": "com.microsoft.outlook",
-  "currentVersion": "16.16.18091001",
+  "currentVersion": "16.16.18120901",
   "extensionAttributes": [
   ],
   "id": "MicrosoftOutlook2016-msupdate",
-  "lastModified": "2018-09-12T20:55:49Z",
+  "lastModified": "2018-12-11T22:37:27Z",
   "name": "Microsoft Outlook 2016 (msupdate)",
   "patches": [
     {
@@ -33,7 +33,139 @@
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
+              "value": "16.16.18120901"
+            }
+          ],
+          "name": "Microsoft Outlook 2016",
+          "version": "16.16.18120901"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-12-11T21:37:57Z",
+      "standalone": true,
+      "version": "16.16.18120901"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18111001"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
+            }
+          ],
+          "name": "Microsoft Outlook 2016",
+          "version": "16.16.18111001"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-11-14T20:08:58Z",
+      "standalone": true,
+      "version": "16.16.18111001"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "16.16.18101500"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
+            }
+          ],
+          "name": "Microsoft Outlook 2016",
+          "version": "16.16.18101500"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Microsoft Dummy.app",
+          "bundleId": "com.microsoft.Dummy"
+        }
+      ],
+      "minimumOperatingSystem": "10.10",
+      "reboot": false,
+      "releaseDate": "2018-09-12T19:14:03Z",
+      "standalone": true,
+      "version": "16.16.18101500"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.10"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
               "value": "16.16.18091001"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
             }
           ],
           "name": "Microsoft Outlook 2016",
@@ -67,17 +199,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
-              "value": "com.microsoft.Outlook"
-            },
-            {
-              "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.16.18081201"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
             }
           ],
           "name": "Microsoft Outlook 2016",
@@ -111,17 +243,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
-              "value": "com.microsoft.Outlook"
-            },
-            {
-              "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.15.18070902"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
             }
           ],
           "name": "Microsoft Outlook 2016",
@@ -155,17 +287,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
-              "value": "com.microsoft.Outlook"
-            },
-            {
-              "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.14.18061302"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
             }
           ],
           "name": "Microsoft Outlook 2016",
@@ -199,17 +331,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
-              "value": "com.microsoft.Outlook"
-            },
-            {
-              "and": true,
               "name": "Application Version",
               "operator": "is",
               "type": "recon",
               "value": "16.14.18061000"
+            },
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.microsoft.Outlook"
             }
           ],
           "name": "Microsoft Outlook 2016",
@@ -1739,17 +1871,17 @@
           "criteria": [
             {
               "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "15.17.1"
-            },
-            {
-              "and": true,
               "name": "Application Bundle ID",
               "operator": "is",
               "type": "recon",
               "value": "com.microsoft.outlook"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "15.17.1"
             }
           ],
           "name": "Microsoft Outlook 2016",
