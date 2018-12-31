@@ -1,13 +1,57 @@
 {
   "appName": "Adobe Character Animator CC 2019.app",
   "bundleId": "com.adobe.Character-Animator.application",
-  "currentVersion": "2.0",
+  "currentVersion": "2.0.1",
   "extensionAttributes": [
   ],
   "id": "AdobeCharacterAnimatorCC2019",
-  "lastModified": "2018-11-27T15:34:47Z",
+  "lastModified": "2018-12-12T18:59:17Z",
   "name": "Adobe Character Animator CC 2019",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.Character-Animator.application"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "2.0.1"
+            }
+          ],
+          "name": "Adobe Character Animator CC 2019",
+          "version": "2.0.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Character Animator CC 2019.app",
+          "bundleId": "com.adobe.Character-Animator.application"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-12-11T21:54:55Z",
+      "standalone": true,
+      "version": "2.0.1"
+    },
     {
       "capabilities": [
         {

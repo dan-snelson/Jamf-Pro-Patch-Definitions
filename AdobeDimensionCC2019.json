@@ -1,13 +1,57 @@
 {
   "appName": "Adobe Dimension CC.app",
   "bundleId": "com.adobe.dimension",
-  "currentVersion": "2.0",
+  "currentVersion": "2.1",
   "extensionAttributes": [
   ],
   "id": "AdobeDimensionCC2019",
-  "lastModified": "2018-11-27T15:34:47Z",
+  "lastModified": "2018-12-12T18:58:20Z",
   "name": "Adobe Dimension CC 2019",
   "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.dimension"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "2.1"
+            }
+          ],
+          "name": "Adobe Dimension CC 2019",
+          "version": "2.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Dimension CC.app",
+          "bundleId": "com.adobe.dimension"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-12-11T21:56:33Z",
+      "standalone": true,
+      "version": "2.1"
+    },
     {
       "capabilities": [
         {
