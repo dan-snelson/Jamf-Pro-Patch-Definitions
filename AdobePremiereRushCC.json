@@ -1,0 +1,154 @@
+{
+  "appName": "Adobe Premiere Rush CC.app",
+  "bundleId": "com.adobe.PremiereRush.CC1.0",
+  "currentVersion": "1.0.2",
+  "extensionAttributes": [
+  ],
+  "id": "AdobePremiereRushCC",
+  "lastModified": "2018-11-27T16:19:54Z",
+  "name": "Adobe Premiere Rush CC",
+  "patches": [
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.PremiereRush.CC1.0"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "1.0.2"
+            }
+          ],
+          "name": "Adobe Premiere Rush CC",
+          "version": "1.0.2"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Premiere Rush CC.app",
+          "bundleId": "com.adobe.PremiereRush.CC1.0"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-26T23:52:20Z",
+      "standalone": true,
+      "version": "1.0.2"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.PremiereRush.CC1.0"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "1.0.1"
+            }
+          ],
+          "name": "Adobe Premiere Rush CC",
+          "version": "1.0.1"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Premiere Rush CC.app",
+          "bundleId": "com.adobe.PremiereRush.CC1.0"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-11-06T01:23:09Z",
+      "standalone": true,
+      "version": "1.0.1"
+    },
+    {
+      "capabilities": [
+        {
+          "and": true,
+          "name": "Operating System Version",
+          "operator": "greater than or equal",
+          "type": "recon",
+          "value": "10.12"
+        }
+      ],
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true,
+              "name": "Application Bundle ID",
+              "operator": "is",
+              "type": "recon",
+              "value": "com.adobe.PremiereRush.CC1.0"
+            },
+            {
+              "and": true,
+              "name": "Application Version",
+              "operator": "is",
+              "type": "recon",
+              "value": "1.0"
+            }
+          ],
+          "name": "Adobe Premiere Rush CC",
+          "version": "1.0"
+        }
+      ],
+      "killApps": [
+        {
+          "appName": "Adobe Premiere Rush CC.app",
+          "bundleId": "com.adobe.PremiereRush.CC1.0"
+        }
+      ],
+      "minimumOperatingSystem": "10.12",
+      "reboot": false,
+      "releaseDate": "2018-10-16T03:25:33Z",
+      "standalone": true,
+      "version": "1.0"
+    }
+  ],
+  "publisher": "Adobe",
+  "requirements": [
+    {
+      "and": true,
+      "name": "Application Bundle ID",
+      "operator": "is",
+      "type": "recon",
+      "value": "com.adobe.PremiereRush.CC1.0"
+    }
+  ]
+}
