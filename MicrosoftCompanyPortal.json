@@ -1,109 +1,240 @@
 {
-  "appName": "Company Portal.app",
-  "bundleId": "com.microsoft.CompanyPortal",
-  "currentVersion": "1.7",
-  "extensionAttributes": [
-  ],
-  "id": "MicrosoftCompanyPortal",
-  "lastModified": "2018-08-16T21:50:36Z",
-  "name": "Microsoft Company Portal",
+  "appName": "Company Portal.app", 
+  "bundleId": "com.microsoft.CompanyPortal", 
+  "currentVersion": "1.11", 
+  "extensionAttributes": [], 
+  "id": "MicrosoftCompanyPortal", 
+  "lastModified": "2018-12-31T15:11:00Z", 
+  "name": "Microsoft Company Portal", 
   "patches": [
     {
       "capabilities": [
         {
-          "and": true,
-          "name": "Operating System Version",
-          "operator": "greater than or equal",
-          "type": "recon",
-          "value": "10.11"
+          "and": true, 
+          "name": "Operating System Version", 
+          "operator": "greater than or equal", 
+          "type": "recon", 
+          "value": "10.12"
         }
-      ],
+      ], 
       "components": [
         {
           "criteria": [
             {
-              "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
+              "and": true, 
+              "name": "Application Bundle ID", 
+              "operator": "is", 
+              "type": "recon", 
               "value": "com.microsoft.CompanyPortal"
-            },
+            }, 
             {
-              "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "1.7"
+              "and": true, 
+              "name": "Application Version", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "1.11"
             }
-          ],
-          "name": "Microsoft Company Portal",
-          "version": "1.7"
+          ], 
+          "name": "Microsoft Company Portal", 
+          "version": "1.11"
         }
-      ],
+      ], 
       "killApps": [
         {
-          "appName": "Company Portal.app",
+          "appName": "Company Portal.app", 
           "bundleId": "com.microsoft.CompanyPortal"
         }
-      ],
-      "minimumOperatingSystem": "10.11",
-      "reboot": false,
-      "releaseDate": "2018-08-16T21:45:26Z",
-      "standalone": true,
-      "version": "1.7"
-    },
+      ], 
+      "minimumOperatingSystem": "10.12", 
+      "reboot": false, 
+      "releaseDate": "2018-12-18T18:18:00Z", 
+      "standalone": true, 
+      "version": "1.11"
+    }, 
     {
       "capabilities": [
         {
-          "and": true,
-          "name": "Operating System Version",
-          "operator": "greater than or equal",
-          "type": "recon",
+          "and": true, 
+          "name": "Operating System Version", 
+          "operator": "greater than or equal", 
+          "type": "recon", 
           "value": "10.11"
         }
-      ],
+      ], 
       "components": [
         {
           "criteria": [
             {
-              "and": true,
-              "name": "Application Version",
-              "operator": "is",
-              "type": "recon",
-              "value": "1.5"
-            },
-            {
-              "and": true,
-              "name": "Application Bundle ID",
-              "operator": "is",
-              "type": "recon",
+              "and": true, 
+              "name": "Application Bundle ID", 
+              "operator": "is", 
+              "type": "recon", 
               "value": "com.microsoft.CompanyPortal"
+            }, 
+            {
+              "and": true, 
+              "name": "Application Version", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "1.10"
             }
-          ],
-          "name": "Microsoft Company Portal",
-          "version": "1.5"
+          ], 
+          "name": "Microsoft Company Portal", 
+          "version": "1.10"
         }
-      ],
+      ], 
       "killApps": [
         {
-          "appName": "Company Portal.app",
+          "appName": "Company Portal.app", 
           "bundleId": "com.microsoft.CompanyPortal"
         }
-      ],
-      "minimumOperatingSystem": "10.11",
-      "reboot": false,
-      "releaseDate": "2018-07-14T20:08:21Z",
-      "standalone": true,
+      ], 
+      "minimumOperatingSystem": "10.11", 
+      "reboot": false, 
+      "releaseDate": "2018-11-20T20:05:41Z", 
+      "standalone": true, 
+      "version": "1.10"
+    }, 
+    {
+      "capabilities": [
+        {
+          "and": true, 
+          "name": "Operating System Version", 
+          "operator": "greater than or equal", 
+          "type": "recon", 
+          "value": "10.11"
+        }
+      ], 
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true, 
+              "name": "Application Bundle ID", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "com.microsoft.CompanyPortal"
+            }, 
+            {
+              "and": true, 
+              "name": "Application Version", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "1.8"
+            }
+          ], 
+          "name": "Microsoft Company Portal", 
+          "version": "1.8"
+        }
+      ], 
+      "killApps": [
+        {
+          "appName": "Company Portal.app", 
+          "bundleId": "com.microsoft.CompanyPortal"
+        }
+      ], 
+      "minimumOperatingSystem": "10.11", 
+      "reboot": false, 
+      "releaseDate": "2018-08-30T23:03:12Z", 
+      "standalone": true, 
+      "version": "1.8"
+    }, 
+    {
+      "capabilities": [
+        {
+          "and": true, 
+          "name": "Operating System Version", 
+          "operator": "greater than or equal", 
+          "type": "recon", 
+          "value": "10.11"
+        }
+      ], 
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true, 
+              "name": "Application Bundle ID", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "com.microsoft.CompanyPortal"
+            }, 
+            {
+              "and": true, 
+              "name": "Application Version", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "1.7"
+            }
+          ], 
+          "name": "Microsoft Company Portal", 
+          "version": "1.7"
+        }
+      ], 
+      "killApps": [
+        {
+          "appName": "Company Portal.app", 
+          "bundleId": "com.microsoft.CompanyPortal"
+        }
+      ], 
+      "minimumOperatingSystem": "10.11", 
+      "reboot": false, 
+      "releaseDate": "2018-08-16T21:45:26Z", 
+      "standalone": true, 
+      "version": "1.7"
+    }, 
+    {
+      "capabilities": [
+        {
+          "and": true, 
+          "name": "Operating System Version", 
+          "operator": "greater than or equal", 
+          "type": "recon", 
+          "value": "10.11"
+        }
+      ], 
+      "components": [
+        {
+          "criteria": [
+            {
+              "and": true, 
+              "name": "Application Version", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "1.5"
+            }, 
+            {
+              "and": true, 
+              "name": "Application Bundle ID", 
+              "operator": "is", 
+              "type": "recon", 
+              "value": "com.microsoft.CompanyPortal"
+            }
+          ], 
+          "name": "Microsoft Company Portal", 
+          "version": "1.5"
+        }
+      ], 
+      "killApps": [
+        {
+          "appName": "Company Portal.app", 
+          "bundleId": "com.microsoft.CompanyPortal"
+        }
+      ], 
+      "minimumOperatingSystem": "10.11", 
+      "reboot": false, 
+      "releaseDate": "2018-07-14T20:08:21Z", 
+      "standalone": true, 
       "version": "1.5"
     }
-  ],
-  "publisher": "Microsoft",
+  ], 
+  "publisher": "Microsoft", 
   "requirements": [
     {
-      "and": true,
-      "name": "Application Bundle ID",
-      "operator": "is",
-      "type": "recon",
+      "and": true, 
+      "name": "Application Bundle ID", 
+      "operator": "is", 
+      "type": "recon", 
       "value": "com.microsoft.CompanyPortal"
     }
   ]
